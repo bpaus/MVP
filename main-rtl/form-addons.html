@@ -901,26 +901,29 @@
                                         </div>
                                     </div> -->
                                     <div class="form-group">
+
                                         <div class="col-md-12">
-                                            <!-- <label class="control-label">שם הטראפיה</label> -->
-                                            <input type="text" id="firstName" class="form-control" placeholder="שם הטרפיה">
-                                            <small class="form-control-feedback"></small>
-                                            <div class="col-md-6">
-                                                <label class="control-label">קטגוריה</label>
-                                                <select id="theraphyCategory" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
-                                                    <option value="Category 1">חיקוי</option>
-                                                    <option value="Category 2">חברתי</option>
-                                                    <option value="Category 3">הפקת שפה</option>
-                                                    <option value="Category 4">מוטוריקה</option>
-                                                </select>
-                                                <label class="control-label">שלב ביצוע</label>
-                                                <select id="theraphyCategory" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
-                                                    <option value="Category 1">BT</option>
-                                                    <option value="Category 2">MTTR</option>
-                                                    <option value="Category 3">MT</option>
-                                                </select>
-                                            </div>
-                                            <div class="example">
+                                            <div class="row">
+                                                <!-- <label class="control-label">שם הטראפיה</label> -->
+                                                <input type="text" id="firstName" class="form-control" placeholder="שם הטרפיה">
+                                                <small class="form-control-feedback"></small>
+                                                <div class="col-md-4">
+                                                    <h5 class="box-title m-t-30">קטגוריה</h5>
+                                                    <select id="theraphyCategory" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                        <option value="Category 1">חיקוי</option>
+                                                        <option value="Category 2">חברתי</option>
+                                                        <option value="Category 3">הפקת שפה</option>
+                                                        <option value="Category 4">מוטוריקה</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h5 class="box-title m-t-30">שלב ביצוע</h5>
+                                                    <select id="theraphyCategory" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                        <option value="Category 1">BT</option>
+                                                        <option value="Category 2">MTTR</option>
+                                                        <option value="Category 3">MT</option>
+                                                    </select>
+                                                </div>
                                                 <div class="col-md-4">
                                                     <h5 class="box-title m-t-30">תעריך התחלה</h5>
                                                     <div class="input-group">
@@ -930,6 +933,9 @@
                                                         </span>
                                                     </div>
                                                 </div>
+                                            </div>
+                                            <div class="example">
+
 
                                                 <!-- <h4 class="card-title  m-t-30">גירוי/הוראה</h4> -->
                                                 <div class="input-group  m-t-20 m-b-30">
@@ -939,7 +945,7 @@
                                                 <div id='hint' class="input-group  m-t-20 m-b-30">
                                                     <span class="input-group-addon">רמזים</span>
                                                     <input type="text" value="רמז פיזי מלא,חלקי,הצבעה,מילולי,חפיפה" data-role="tagsinput" placeholder="הוסף חדש">
-                                                 </div>
+                                                </div>
 
                                                 <div class="form-group">
                                                     <label>מטרה</label>
@@ -950,12 +956,12 @@
                                                     <textarea class="form-control" rows="5"></textarea>
                                                 </div>
                                                 <fieldset class="form-group">
-                                                        <label>צרף קובץ</label>
-                                                        <label class="custom-file d-block">
-                                                            <input type="file" id="file" class="custom-file-input">
-                                                            <span class="custom-file-control"></span>
-                                                        </label>
-                                                    </fieldset>
+                                                    <label>צרף קובץ</label>
+                                                    <label class="custom-file d-block">
+                                                        <input type="file" id="file" class="custom-file-input">
+                                                        <span class="custom-file-control"></span>
+                                                    </label>
+                                                </fieldset>
                                             </div>
                                             <!-- <button type="submit" onclick="saveTheraphyToDb()" class="btn btn-success waves-effect waves-light m-r-10">Submit fire</button>
                                             <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button> -->
@@ -975,7 +981,7 @@
                                                         <textarea class="form-control" rows="5"></textarea>
                                                     </div> -->
 
-                                            <div class="col-lg-12 col-xlg-4">
+                                            <div class="col-lg-12 col-xlg-12">
 
                                                 <h5 class="box-title">רשימת רעיונות</h5>
                                                 <select multiple id="public-methods" name="public-methods[]">
@@ -1179,66 +1185,17 @@
                                                     <option value="elem_198">elem 198</option>
                                                     <option value="elem_199">elem 199</option>
                                                     <option value="elem_200">elem 200</option>
-                                                
-                                               
-                                               
-                                               
-                                               
                                                 </select>
-                                                
-                                                
-                                                <button type="submit" onclick="saveTheraphyToDb()" class="btn btn-success waves-effect waves-light m-r-10">Submit fire</button>
-                                                <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                                         
                                             </div>
                                         </div>
+                                        <button type="submit" onclick="saveTheraphyToDb()" class="btn btn-success waves-effect waves-light m-r-10">Submit fire</button>
+                                        <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- Row -->
-                            <!-- Row -->
-                            <!-- <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Bootstrap TouchSpin</h4>
-                                <h6 class="card-subtitle">Use the <code> data-plugin="touchSpin" </code> to create a Bootstrap style spinner.</h6>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <form class="p-r-20">
-                                            <div class="form-group">
-                                                <label class="control-label">Vertical Touchspin</label>
-                                                <input class="vertical-spin" type="text" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline" value="" name="vertical-spin"> </div>
-                                            <div class="form-group">
-                                                <label class="control-label">Postfix</label>
-                                                <input id="tch1" type="text" value="55" name="tch1" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline"> </div>
-                                            <div class="form-group m-b-0">
-                                                <label class="control-label">Prefix</label>
-                                                <input id="tch2" type="text" value="0" name="tch2" class=" form-control" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline"> </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <form>
-                                            <div class="form-group">
-                                                <label class="control-label">Init </label>
-                                                <input id="tch3" type="text" value="" name="tch3" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline"> </div>
-                                            <div class="form-group">
-                                                <label class="control-label">Value set 30 </label>
-                                                <input id="tch3_22" type="text" value="30" name="tch3_22" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline"> </div>
-                                            <div class="form-group m-b-0">
-                                                <label class="control-label">Button group</label>
-                                                <div class="input-group">
-                                                    <input id="tch5" type="text" class="form-control" name="tch5" value="50" data-bts-button-down-class="btn btn-secondary btn-outline" data-bts-button-up-class="btn btn-secondary btn-outline">
-                                                    <div class="input-group-btn">
-                                                        <button type="button" class="btn btn-secondary btn-outline dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button>
-                                                        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                                                            <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div> -->
+                    
                         </div>
                     </div>
                     <!-- Row -->
@@ -1545,17 +1502,17 @@
             };
             firebase.initializeApp(config);
 
-           function saveTheraphyToDb() {
-               // builf hints array 
-               let hintsArray = [];
-               let hints =$("#hint .label-info");
-               for(let key in hints) {
-                   let hint = hints[key].innerText;
-                   if(hint != undefined) {
-                     hintsArray.push(hint);
-                   }
-               }
-               console.log(hintsArray);
+            function saveTheraphyToDb() {
+                // builf hints array 
+                let hintsArray = [];
+                let hints = $("#hint .label-info");
+                for (let key in hints) {
+                    let hint = hints[key].innerText;
+                    if (hint != undefined) {
+                        hintsArray.push(hint);
+                    }
+                }
+                console.log(hintsArray);
                 let theraphyName = $('#firstName').val();
                 let family = '';
                 let startDate = Date();
@@ -1572,19 +1529,19 @@
                     category: category,
                     family: family,
                     startDate: startDate,
-                    endDate : endDate,
+                    endDate: endDate,
                     data: {
                         target: target,
-                        response : response,
-                        hint : hintsArray,
-                        freeText : freeText
+                        response: response,
+                        hint: hintsArray,
+                        freeText: freeText
                     },
                     attachments: {
-                        pics : pics,
-                        docs : docs,
-                        videos : videos
+                        pics: pics,
+                        docs: docs,
+                        videos: videos
                     }
-                  });
+                });
             }
         </script>
 </body>
