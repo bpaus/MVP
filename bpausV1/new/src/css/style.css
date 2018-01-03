@@ -7109,3 +7109,7 @@ ul.wysihtml5-toolbar > li {
   #users-list-wrapper {
     margin-right: 0
   }
+
+  .t-list {
+    margin-top: 0;
+  }
