@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>BpausV1</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="dashboard.html">
+                        <!-- Logo icon -->
+                        <b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/LOGO_COLOUR_new site.png" id="bpaus-logo" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <!-- <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" /> -->
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span>
+                         <!-- dark Logo text -->
+                         <!-- <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" /> -->
+                         <!-- Light Logo text -->    
+                         <!-- <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a> -->
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0 ">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="icon-arrow-left-circle"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu mailbox animated bounceInDown">
+                                <ul>
+                                    <li>
+                                        <div class="drop-title">Notifications</div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-success btn-circle"><i class="ti-calendar"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Event today</h5> <span class="mail-desc">Just a reminder that you have event</span> <span class="time">9:10 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-info btn-circle"><i class="ti-settings"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Settings</h5> <span class="mail-desc">You can customize this template as you want</span> <span class="time">9:08 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-primary btn-circle"><i class="ti-user"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center" href="javascript:void(0);"> <strong>Check all notifications</strong> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu mailbox animated bounceInDown" aria-labelledby="2">
+                                <ul>
+                                    <li>
+                                        <div class="drop-title">You have 4 new messages</div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center" href="javascript:void(0);"> <strong>See all e-Mails</strong> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-view-grid"></i></a>
+                            <div class="dropdown-menu animated bounceInDown">
+                                <ul class="mega-dropdown-menu row">
+                                    <li class="col-lg-3 col-xlg-2 m-b-30">
+                                        <h4 class="m-b-20">CAROUSEL</h4>
+                                        <!-- CAROUSEL -->
+                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                    <div class="container"> <img class="d-block img-fluid" src="../assets/images/big/img1.jpg" alt="First slide"></div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container"><img class="d-block img-fluid" src="../assets/images/big/img2.jpg" alt="Second slide"></div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container"><img class="d-block img-fluid" src="../assets/images/big/img3.jpg" alt="Third slide"></div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                                        </div>
+                                        <!-- End CAROUSEL -->
+                                    </li>
+                                    <li class="col-lg-3 m-b-30">
+                                        <h4 class="m-b-20">ACCORDION</h4>
+                                        <!-- Accordian -->
+                                        <div id="accordion" class="nav-accordion" role="tablist" aria-multiselectable="true">
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                  Collapsible Group Item #1
+                                                </a>
+                                              </h5> </div>
+                                                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high. </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  Collapsible Group Item #2
+                                                </a>
+                                              </h5> </div>
+                                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                  Collapsible Group Item #3
+                                                </a>
+                                              </h5> </div>
+                                                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-3  m-b-30">
+                                        <h4 class="m-b-20">CONTACT US</h4>
+                                        <!-- Contact -->
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputname1" placeholder="Enter Name"> </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-info">Submit</button>
+                                        </form>
+                                    </li>
+                                    <li class="col-lg-3 col-xlg-4 m-b-30">
+                                        <h4 class="m-b-20">List style</h4>
+                                        <!-- List style -->
+                                        <ul class="list-style-none">
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> You can give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> Give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> Another Give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> Forth link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> Another fifth link</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <li class="nav-item hidden-sm-down">
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search for..."> <a class="srh-btn"><i class="ti-search"></i></a> </form>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <div class="dropdown-menu dropdown-menu-right animated flipInY">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="../assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Steave Jobs</h4>
+                                                <p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
+                                    <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
+                                    <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-us"></i></a>
+                            <div class="dropdown-menu  dropdown-menu-right animated bounceInDown"> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-in"></i> India</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> China</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-de"></i> Dutch</a> </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="../assets/images/users/1.jpg" alt="user" /> </div>
+                    <!-- User profile text-->
+                    <div class="profile-text"> <a href="#" class="dropdown-toggle link u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Markarn Doe <span class="caret"></span></a>
+                        <div class="dropdown-menu animated flipInY">
+                            <a href="#" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                            <a href="#" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                            <a href="#" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                            <div class="dropdown-divider"></div> <a href="#" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
+                            <div class="dropdown-divider"></div> <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+              <!-- Sidebar navigation-->
+              <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li class="nav-small-cap"></li>
+                    <li>
+                        <a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">אזור אישי<span class="label label-rounded label-success">5</span></span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="app-calendar.html">יומן</a></li>
+                            <li><a href="check-list.html">צ'קליסט</a></li>
+                            <li><a href="therapies-store.html">תכניות שלי</a></li>
+                            <li><a href="users.html">טרפיסטים שלי</a></li>
+                            <li><a href="family.html">משפחות שלי</a></li>
+                            <!-- <li><a href="app-contact-detail.html">כרטיס משפחה</a></li> -->
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow " href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">חנות</span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="therapies-store.html">תכניות</a></li>
+                            <li><a href="pages-gallery.html">תמונות</a></li>
+                            <!-- <li><a href="app-ticket.html">סירטונים</a></li> -->
+                            <li><a href="pages-fix-innersidebar.html">מאגר ידע</a></li>
+                            <li><a href="behavior-statistics.html">התפתחות הילד</a></li>
+                            <li><a href="app-contact-detail.html">טסטים</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow " href="#" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">דואר</span></a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="app-email.html">הודאות שלי</a></li>
+                            <li><a href="app-email-detail.html">הודעה</a></li>
+                            <li><a href="app-compose.html">מייל חדש</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Logout"><i class="mdi mdi-power"></i></a>
+            </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-6 col-8 align-self-center">
+                        <h3 class="text-themecolor m-b-0 m-t-0">התפתחות הילד</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">אזור אישי</a></li>
+                            <li class="breadcrumb-item active">התפתחות הילד</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6 col-4 align-self-center">
+                        <button class="right-side-toggle waves-effect waves-light btn-info btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
+                        <button class="btn pull-right hidden-sm-down btn-success"><i class="mdi mdi-plus-circle"></i> Create</button>
+                        <div class="dropdown pull-right m-r-10 hidden-sm-down">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> January 2017 </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">February 2017</a> <a class="dropdown-item" href="#">March 2017</a> <a class="dropdown-item" href="#">April 2017</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-lg-3 col-xlg-2 col-md-4">
+                        <div class="stickyside">
+                            <div class="list-group" id="top-menu">
+                                <a href="#1" class="list-group-item active">0-6 שבועות</a>
+                                <a href="#22" class="list-group-item">6 שבועות עד 3 חודשים</a>
+                                <a href="#3" class="list-group-item">3 עד 6 חודשים</a>
+                                <a href="#4" class="list-group-item">6 עד 9 חודשים</a>
+                                <a href="#5" class="list-group-item">9 עד 12 חודשים</a>
+                                <a href="#6" class="list-group-item">12 עד 18 חודשים </a>
+                                <a href="#7" class="list-group-item">18 עד 24 חודשים</a>
+                                <a href="#8" class="list-group-item">24 עד 36 חודשים (2-3 שנים)</a>
+                                <a href="#9" class="list-group-item">36 עד 48 חודשים (3-4 שנים)</a>
+                                <a href="#10" class="list-group-item">48 עד 60 חודשים (4-5 שנים)</a>
+                                <a href="#11" class="list-group-item">60 עד 72 חודשים (5-6 שנים)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xlg-10 col-md-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title" id="1"> התפתחות שפה ותקשורת (0-6 שבועות) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>בוכה כדי להביע את עצמו וליצור קשר.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> משמיע קולות גרוניים, קולות המיה וגרגורים.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> משמיע קולות בזמן ההאכלה. </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מתחיל לחייך חיוך חברתי לקראת גיל 6 שבועות. </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ליצור קשר עין עם התינוק, לדבר עמו ולומר לו מילות חיבה.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לשיר בקול נעים ולהשמיע מוסיקה נעימה.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> ללוות כל פעילות במלל תוך הסבר על הפעולה עצמה. </a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית (0-6 שבועות) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>זמני העירות מתארכים ככל שהתינוק גדל.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> התינוק מישיר מבט לעיני המחזיק אותו בזרועותיו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מתחיל לחייך חיוך חברתי לקראת גיל 6 שבועות.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> עוקב אחרי חפץ נע וממקד מבט במשך מספר שניות.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מקרב את אגרופו לפיו ומוצץ את האגרוף.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> בוכה כדי להביע מצוקה או אי נעימות כגון רעב, שעמום או כאב.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להתאים את הפעילות עם התינוק לזמני העירות המתארכים.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> ליצור קשר עין, לדבר אל התינוק בקול רך ונעים ולחכות לתגובתו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לתלות מובייל בטווח ראיית התינוק (רצוי בגובה כ- 25- 30 סנטימטרים מעל פניו).</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> להענות לבכיו של התינוק ככל האפשר ולמלא את צרכיו.</a></li>                                                    
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק (0-6 שבועות) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ממקד מעקב עיניים אחר האם ואחר חפצים נעים.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> בוכה בתגובה לאי נוחות.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> נרגע בעקבות מגע של אמו ואביו ונהנה מאמבט ומטיפול גופני.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> קיימת תגובה תחושתית גסה בעקבות גירוי בגוף (לדוגמה, דגדוג או ליטוף) אך אינו מסוגל להבחין במקום המגע על פני גופו.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לאפשר מגע רך ונעים.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> להרבות לחבק ולשאת בתנוחת כירבול או ערסול.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לארגן בבית סביבת משחק מתאימה. רצוי להניח משטח מרופד על הרצפה (מזרון או שטיח עבה).</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> להחזיק את התינוק תוך תמיכה בראשו.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לקרב משחק כגון פעמון, רעשן, או ספר תמונות לפניו של התינוק, בטווח ראייתו, כדי לגרות את מערכותיו התחושתיות.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> רצוי להימנע מעודף גירויים.</a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+
+
+
+                                <h2 class="card-title" id="22">התפתחות שפה ותקשורת (6 שבועות עד 3 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>משמיע קולות מלמול וגרגור.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>עוקב בעיניו לכל הכיוונים.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> משמיע בכי שונה במצבים שונים כגון רעב, אי נוחות, עייפות וכאב. משתמש בביטוי קולי שונה במצבים שונים.משמיע קולות בתגובה לקולות מוכרים. </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מחייך חיוך חברתי כדרך להביע הנאה. </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לחשוף את התינוק לקולות ולצלילים שונים.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ללמוד להכיר את תגובותיו ולהענות בהתאם.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית (6 שבועות עד 3 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>נרגע כשמחזיקים אותו על הידיים או כשמדברים אליו.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לקראת גיל 3 חודשים מחייך לעיתים מזומנות.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מגיב בחיוך כשהוא נינוח וצרכיו נענים.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> בוכה כדי לבקש עזרה או להפגין מצוקה.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>סקרן לסביבתו החיצונית וחוקר אותה במבט.</a></li>                                              
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להחזיק את התינוק, ליצור עמו קשר עין ולדבר בקול רך ונעים. לשים לב לתגובותיו ולהענות בהתאם.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להגיב לבכי התינוק ולספק את צרכיו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להעניק לתינוק אהבה ותחושה שהוא אהוב וחשוב.</a></li>                                                 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק (6 שבועות עד 3 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>זמן התגובה לגירויים מתקצר.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>כפות הידיים מאוגרפות ונפתחות בתגובה למגע.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לקראת גיל 3 חודשים מסוגל לאחוז צעצוע במשך מספר דקות.</a></li>                                                
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להניח בכף ידו צעצועים מפיקי צליל בעלי מרקם, גודל, וצורה מגוונים.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                
+
+
+                                <h2 class="card-title" id="3">התפתחות שפה ותקשורת (3 עד 6 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מפיק צלילים שונים בגובהם ובעוצמתם.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>משמיע קולות מלמול ועיצורים כגון 'בה, גה, מה'.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>צוחק בקול. </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מגיב באופן שונה לקולות שונים ומסוגל להבחין בין קולה של אמו לקולו של אדם אחר. </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לפתח עם התינוק שיחה.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לחזור על קולות והברות שהתינוק משמיע ולצחוק איתו.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לחייך אל התינוק, לדבר בקול רך ונעים ובמשפטים קצרים ולקרוא בשמו.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לשיר ולדבר אל התינוק.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ללוות במלל פעילויות יומיומיות הנעשות עם התינוק. להסביר לתינוק את שנעשה.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית (3 עד 6 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מתעניין ונהנה מתנועות גופו.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מגיל 3 חודשים צוחק בקול רם.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>החל מגיל 5 חודשים משמיע הברות.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מחייך למראה דמותו במראה.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מזהה תחילה את אמו ובהמשך גם את שאר בני המשפחה.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מגיב בקול לחיוכה של אמו.</a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מתחיל להגיב למצבים מוכרים באמצעות חיוכים ותנועות נלהבות (לדוגמה, זיהוי הבקבוק והכנת האוכל).</a></li>                                                                                           
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ללוות במלל כל פעילות עם התינוק.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לשחק עם ולהפגין גינוני חיבה כלפיו (חיבוק, נשיקה וודיבור בקול רך ונעים).</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לטייל עם התינוק בחוץ בעגלה או במנשא.</a></li>                                                 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק (3 עד 6 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>נהנה מאמבט ומטיפול גופני .</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>התינוק מושיט יד למשחק, מחזיק ומכניס לפיו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>התינוק מנענע חפץ על מנת להפיק ממנו צליל, תחילה באופן מקרי ובהמשך בצורה מכוונת.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>נהנה ממגע עם מרקמים שונים אך נרתע ממרקמים שאינם נעימים (לדוגמא, דשא).</a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לאחר גיל 5 חודשים, מעביר חפץ מיד ליד.</a></li>                                                                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>בזמן הרחצה, להציע לתינוק צעצועים שצפים באמבט.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>יש לשחק עם התינוק במשחקים שמפעילים ומערבים את חושיו, כגון רעשן או פעמון.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לחשוף את התינוק לחומרים במגוון מרקמים.</a></li> 
+                                                    <!-- <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> להחזיק את התינוק תוך תמיכה בראשו.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לקרב משחק כגון פעמון, רעשן, או ספר תמונות לפניו של התינוק, בטווח ראייתו, כדי לגרות את מערכותיו התחושתיות.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> רצוי להימנע מעודף גירויים.</a></li> 
+                                                 </ul> -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                    
+                                <h2 class="card-title" id="4">התפתחות שפה ותקשורת (6 עד 9 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מתחיל לחקות קולות דמויי מלמול של הברה אחת: 'בה, מו, דה', ובהמשך גם של שתי הברות ('בה-דה').</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>נהנה להשמיע צלילים לעצמו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>משמיע קולות באינטונציות ובעוצמות שונות. </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מתחיל להגיב לשירי משחק (לדוגמה, 'ידיים למעלה' או 'מחא כפיים'). </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>ללוות כל פעילות עם התינוק במלל.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>חשוב לחזור על מילים פשוטות כמו 'אמא, אבא, ביי-ביי או שלום'.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>יש לפנות לאנשים בשמם, ולציין את שמם של אברי גוף, מאכלים או צעצועים.</a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית (6 עד 9 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מגלה את סביבתו תוך כדי משחק.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מתחיל להגיב למילה 'לא' ולגלות סימני התנגדות לפעילויות שאינן רצויות לו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מכיר אנשים, מגיב בחיוך לדמויות מוכרות ומסתייג מזרים ('חרדת זרים').</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> מתחיל לשתף פעולה עם אנשים בסביבתו ואינו רוצה כאשר עוזבים אותו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>חוזר על פעילויות המסיבות לו הנאה.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>נהנה ממשחק חברתי עם אדם מוכר.</a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מסמן לשלום ומוחא כפיים.</a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מפיק צלילים שונים ונהנה לחזור על קולותיו שלו.</a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>חשוב להתייחס בהבנה להסתייגותו של התינוק מזרים ולתמוך בהסתגלות הדרגתית אליהם.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לעודד משחק חברתי ('מחא כפיים' או 'קוקו')</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לדבר עם התינוק ולהסביר לו פעולות פשוטות (לדוגמה, 'הנה מים' או 'זהו אור').</a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לאפשר לתינוק מרחב תנועה בסביבה בטוחה תוך כדי השגחה מתמדת.</a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק (6 עד 9 חודשים) </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>סקרן, מתעניין במשחק, חוקר אותו ומראה לסובבים.</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לקראת גיל 9-8 חודשים, מסוגל לחפש צעצוע שנעלם או שיצא מטווח ראייתו.</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מביא הכל לפיו.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לקראת גיל 9 חודשים, שומט חפץ מידיו בכוונה תחילה.</a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מחזיק חפץ אחד בכל יד ומתייחס לשניהם בצורה מכוונת.</a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>מקיש קובייה בקובייה.</a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>אם עדיין אינו יושב בעצמו, יש להושיב את התינוק בין רגליו של מבוגר (לתמיכה).</a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>לתת לו קופסא שיוכל להוציא מתוכה חפצים דוגמת קוביות (ובהמשך, אף להכניס חזרה).</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> להצביע ולגעת בחפץ תוך אמירת שם החפץ.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i>להחביא חפצים או להפיל קוביה ולחפש ביחד.</a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> לשחק ב- 'קוקו', 'מחא כפיים' וללמד את התינוק לנופף לשלום.</a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+                             
+                                <h2 class="card-title" id="5">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+
+                                <h2 class="card-title" id="6">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+
+                                <h2 class="card-title" id="7">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+
+                                <h2 class="card-title" id="8">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+                                <h2 class="card-title" id="9">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+
+                                <h2 class="card-title" id="10">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+                                <h2 class="card-title" id="11">התפתחות שפה ותקשורת </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות שכלית-חברתית </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> </a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                              
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>        
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                      
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>   
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                               
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+                                <h2 class="card-title "  >התפתחות המגע ויכולת משחק </h2>
+                                <!-- <h4 class="card-title">התפתחות צפויה</h4> -->
+                                <p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">התפתחות צפויה</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>      
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>                                                                                                                                                                                        
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6 b-r"> <h4 class="card-title text-info">תפקיד ההורים</h4>           
+                                            <p>
+                                                <ul class="list-icons">
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                     <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i></a></li> 
+                                                 </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </p>
+
+
+                               
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <div class="right-sidebar">
+                    <div class="slimscrollright">
+                        <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
+                        <div class="r-panel-body">
+                            <ul id="themecolors" class="m-t-20">
+                                <li><b>With Light sidebar</b></li>
+                                <li><a href="javascript:void(0)" data-theme="default" class="default-theme">1</a></li>
+                                <li><a href="javascript:void(0)" data-theme="green" class="green-theme">2</a></li>
+                                <li><a href="javascript:void(0)" data-theme="red" class="red-theme">3</a></li>
+                                <li><a href="javascript:void(0)" data-theme="blue" class="blue-theme working">4</a></li>
+                                <li><a href="javascript:void(0)" data-theme="purple" class="purple-theme">5</a></li>
+                                <li><a href="javascript:void(0)" data-theme="megna" class="megna-theme">6</a></li>
+                                <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
+                                <li><a href="javascript:void(0)" data-theme="default-dark" class="default-dark-theme">7</a></li>
+                                <li><a href="javascript:void(0)" data-theme="green-dark" class="green-dark-theme">8</a></li>
+                                <li><a href="javascript:void(0)" data-theme="red-dark" class="red-dark-theme">9</a></li>
+                                <li><a href="javascript:void(0)" data-theme="blue-dark" class="blue-dark-theme">10</a></li>
+                                <li><a href="javascript:void(0)" data-theme="purple-dark" class="purple-dark-theme">11</a></li>
+                                <li><a href="javascript:void(0)" data-theme="megna-dark" class="megna-dark-theme ">12</a></li>
+                            </ul>
+                            <ul class="m-t-20 chatonline">
+                                <li><b>Chat option</b></li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer"> © 2017 Monster Admin by wrappixel.com </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script>
+    // This is for the sticky sidebar    
+    $(".stickyside").stick_in_parent({
+        offset_top: 100
+    });
+    $('.stickyside a').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 500);
+        return false;
+    });
+    // This is auto select left sidebar
+    // Cache selectors
+    // Cache selectors
+    var lastId,
+        topMenu = $(".stickyside"),
+        topMenuHeight = topMenu.outerHeight(),
+        // All list items
+        menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function() {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        });
+
+    // Bind click handler to menu items
+
+
+    // Bind to scroll
+    $(window).scroll(function() {
+        // Get container scroll position
+        var fromTop = $(this).scrollTop() + topMenuHeight - 250;
+
+        // Get id of current scroll item
+        var cur = scrollItems.map(function() {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length - 1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        if (lastId !== id) {
+            lastId = id;
+            // Set/remove active class
+            menuItems
+                .removeClass("active")
+                .filter("[href='#" + id + "']").addClass("active");
+        }
+    });
+    </script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>
