@@ -16,18 +16,11 @@
     <link href="../assets/plugins/bootstrap-rtl-master/dist/css/custom-bootstrap-rtl.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/style.baleni-table.css" rel="stylesheet">
+
     <!-- You can change the theme colors from here -->
     <link href="css/colors/blue.css" id="theme" rel="stylesheet">
-
-
-
-
-
-    <link href="css/style.css" rel="stylesheet">
-
-
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -606,12 +599,12 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-6 col-8 align-self-center">
-                        <h3 class="text-themecolor m-b-0 m-t-0">דוחות</h3>
+                        <h3 class="text-themecolor m-b-0 m-t-0">תכניות</h3>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="javascript:void(0)">בית</a>
+                                <a href="javascript:void(0)">Home</a>
                             </li>
-                            <li class="breadcrumb-item active">אזור אישי</li>
+                            <li class="breadcrumb-item active">Profile</li>
                         </ol>
                     </div>
                     <div class="col-md-6 col-4 align-self-center">
@@ -646,223 +639,127 @@
 
 
 
- <!-- Column -->
- <div class="card">
-    <div class="card-body">
-        <h4 class="card-title">Editable with Datatable</h4>
-        <h6 class="card-subtitle">Just click on word which you want to change and enter</h6>
-        <table class="table table-striped table-bordered" id="editable-datatable">
-            <thead>
-                <tr>
-                    <th>שם התכנית</th>
-                    <th colspan="2">פריטים  
-                        <h6 class="card-subtitle"> שרכש מאז סיכום קודם</h6>
-                    </th>
-                    <th>פריט 
-                         <h6 class="card-subtitle">נוכחי</h6>     
-                    </th>
-                    <th>תאריך
-                         <h6 class="card-subtitle">הצגת הפריט</h6> 
-                    </th>
-                    <th>תגובות 
-                         <h6 class="card-subtitle">נכונות עצמאיות</h6> 
-                    </th>
-                    <th>תגובות 
-                         <h6 class="card-subtitle">נכונות עצמאיות באחוזים</h6>
-                    </th>
-                    <th>אחוזים 
-                        <h6 class="card-subtitle">עצמאים בסיכום קודם</h6>
-                    </th>
-                    <th>מהות 
-                         <h6 class="card-subtitle">הטעויות+ סיוע שניתן</h6>
-                    </th>
-                    <th>הערות ושאלות 
-                        <h6 class="card-subtitle"> רעיונות, דוגמאות, הצעות לשיפור ולסיוע</h6>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr id="1" class="gradeX">
-                    <!-- <td>הפקת שפה </td> -->
-                    <th rowspan="4">הפקת שפה</th>
-                    <td> bbvjh </td>
-                    <td>vjvjh </td>
-                    <td> hvjvhj </td>
-                    <td>vhvjhv </td>
-                    <td>vjvhj </td>
-                    <td> gjgjg</td>
-                    <td class="center">4</td>
-                    <td class="center">X</td>
-                </tr>       
-                <tr id="2" class="gradeX">
-                        <!-- <td>הפקת שפה </td> -->
-                        <td> bbvjh </td>
-                        <td>vjvjh </td>
-                        <td> hvjvhj </td>
-                        <td>vhvjhv </td>
-                        <td>vjvhj </td>
-                        <td> gjgjg</td>
-                        <td class="center">4</td>
-                        <td class="center">X</td>
-                    </tr>  
-                    <tr id="3" class="gradeX">
-                            <!-- <td>הפקת שפה </td> -->
-                            <td> bbvjh </td>
-                            <td>vjvjh </td>
-                            <td> hvjvhj </td>
-                            <td>vhvjhv </td>
-                            <td>vjvhj </td>
-                            <td> gjgjg</td>
-                            <td class="center">4</td>
-                            <td class="center">X</td>
-                        </tr>  
-                        <tr id="4" class="gradeX">
-                                <!-- <td>הפקת שפה </td> -->
-                                <td> bbvjh </td>
-                                <td>vjvjh </td>
-                                <td> hvjvhj </td>
-                                <td>vhvjhv </td>
-                                <td>vjvhj </td>
-                                <td> gjgjg</td>
-                                <td class="center">4</td>
-                                <td class="center">X</td>
-                            </tr>      
-            </tbody>          
-        </table>
-    </div>
-</div>
+             
+               
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Success Table</h4>
+                                <h6 class="card-subtitle">Add class <code>.color-bordered-table .success-bordered-table</code></h6>
+                                <div class="table-responsive">
+                                    <table class="table color-bordered-table success-bordered-table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th calspan="2">Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                    <th rowspan="3">Telephone</th>
+                                                <!-- <td>1</td> -->
+                                                <td>Nigam</td>
+                                                <td>Eichmann</td>
+                                                <td>@Sonu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <!-- <td>Deshmukh</td> -->
+                                                <td>Prohaska</td>
+                                                <td>@Genelia</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <!-- <td>Roshan</td> -->
+                                                <td>Rogahn</td>
+                                                <td>@Hritik</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                 
+        
 
+                        <table>
+                            <thead>
+                              <tr>
+                                <th rowspan="2" scope="col">שם תכנית</th>
+                                <th colspan="2" scope="col">פריטים  </th>
+                                <th rowspan="2" scope="col">תאריך הצגת הפריט</th>
+                                <th colspan="2" scope="col">תגובות </th>
+                                <th rowspan="2" scope="col">מהות הטעויות+ סיוע שניתן</th>
+                                <th rowspan="2" scope="col">הערות ושאלות, רעיונות, דוגמאות, הצעות לשיפור ולסיוע..</th>
+                             
+                              </tr>
+                              <tr>
+                                    <th>שרכש מאז סיכום קודם</th>
+                                    <th>פריט נוכחי</th>
+                                    <th>סה"כ</th>
+                                    <th>באחוזים</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td rowspan="6"><strong class="book-title">הפקת שפה</td>
+                                <td><strong class="book-title">איך קוראים לך </td>
+                                <td><strong class="book-title">מי זה</td>
+                                <td class="item-qty">1</td>
+                                <td class="item-price">2</td>
+                                <td class="item-price">3</td>
+                                <td rowspan="6"  class="item-qty">אומר יפה את כל השמות, לפעמים צריך להזכיר לו את השמות הפרטיים. 
+                                        כי אומר רק סבא או סבתא 
+                                        </td>
+                                <td rowspan="6" class="item-qty">כשהוגים לו את השמות הוא חוזר אחריהם בצורה מדהימה.
+                                        כששואלים איך קוראים לך אומר אלוני.
+                                        כששאולים מי זה גם אומר אלוני ולא אני.
+                                        האם לסמן פלוס אפילו רק שאומר סבא / סבתא? או רק שמציין את השם
+                                        </td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong class="book-title">ציפי</td>
+                                <td><strong class="book-title">נורית </td>
+                                <td class="item-stock">In Stock</td>
+                                <td class="item-qty">2</td>
+                                <td class="item-price">$52.94 <span class="item-multiple">$26.47 &#215; 2</span></td>
+                                <!-- <td class="item-price">$30.02</td> -->
+                              </tr>
+                              <tr>
+                                <td><strong class="book-title">אמא</td>
+                                <td><strong class="book-title">גיא</td>
+                                <td class="item-stock">Out of Stock</td>
+                                <td class="item-qty">1</td>
+                                <td class="item-price">$22.23</td>
+                              </tr>
+                              <tr>
+                                <td><strong class="book-title">מאיר</td>
+                                <td><strong class="book-title">מוטי</td>
+                                <td class="item-stock">In Stock</td>
+                                <td class="item-qty">1</td>
+                                <td class="item-price">$30.17</td>
+                                
+                              </tr>
+                            </tbody>
+                            <tfoot>
+                              <tr>
+                                <td colspan="3">Subtotal</td>
+                                <td>$135.36</td>
+                              </tr>
+                              <tr>
+                                <td colspan="3">Tax</td>
+                                <td>$13.54</td>
+                              </tr>
+                              <tr>
+                                <td colspan="3">Total</td>
+                                <td>$148.90</td>
+                              </tr>
+                            </tfoot>
+                          </table>
+                          
 
-
- <!-- Column -->
- <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Editable with Datatable</h4>
-            <h6 class="card-subtitle">Just click on word which you want to change and enter</h6>
-            <table class="table table-striped table-bordered" id="editable-datatable">
-                <thead>
-                    <tr>
-                        <th>שם התכנית</th>
-                        <th colspan="2">פריטים  
-                            <h6 class="card-subtitle"> שרכש מאז סיכום קודם</h6>
-                        </th>
-                        <th>פריט 
-                             <h6 class="card-subtitle">נוכחי</h6>     
-                        </th>
-                        <th>תאריך
-                             <h6 class="card-subtitle">הצגת הפריט</h6> 
-                        </th>
-                        <th>תגובות 
-                             <h6 class="card-subtitle">נכונות עצמאיות</h6> 
-                        </th>
-                        <th>תגובות 
-                             <h6 class="card-subtitle">נכונות עצמאיות באחוזים</h6>
-                        </th>
-                        <th>אחוזים 
-                            <h6 class="card-subtitle">עצמאים בסיכום קודם</h6>
-                        </th>
-                        <th>מהות 
-                             <h6 class="card-subtitle">הטעויות+ סיוע שניתן</h6>
-                        </th>
-                        <th>הערות ושאלות 
-                            <h6 class="card-subtitle"> רעיונות, דוגמאות, הצעות לשיפור ולסיוע</h6>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr id="1" class="gradeX">
-                        <!-- <td>הפקת שפה </td> -->
-                        <th rowspan="4">הפקת שפה</th>
-                        <td> bbvjh </td>
-                        <td>vjvjh </td>
-                        <td> hvjvhj </td>
-                        <td>vhvjhv </td>
-                        <td>vjvhj </td>
-                        <td> gjgjg</td>
-                        <td class="center">4</td>
-                        <td class="center">X</td>
-                    </tr>       
-                    <tr id="2" class="gradeX">
-                            <!-- <td>הפקת שפה </td> -->
-                            <td> bbvjh </td>
-                            <td>vjvjh </td>
-                            <td> hvjvhj </td>
-                            <td>vhvjhv </td>
-                            <td>vjvhj </td>
-                            <td> gjgjg</td>
-                            <td class="center">4</td>
-                            <td class="center">X</td>
-                        </tr>  
-                        <tr id="3" class="gradeX">
-                                <!-- <td>הפקת שפה </td> -->
-                                <td> bbvjh </td>
-                                <td>vjvjh </td>
-                                <td> hvjvhj </td>
-                                <td>vhvjhv </td>
-                                <td>vjvhj </td>
-                                <td> gjgjg</td>
-                                <td class="center">4</td>
-                                <td class="center">X</td>
-                            </tr>  
-                            <tr id="4" class="gradeX">
-                                    <!-- <td>הפקת שפה </td> -->
-                                    <td> bbvjh </td>
-                                    <td>vjvjh </td>
-                                    <td> hvjvhj </td>
-                                    <td>vhvjhv </td>
-                                    <td>vjvhj </td>
-                                    <td> gjgjg</td>
-                                    <td class="center">4</td>
-                                    <td class="center">X</td>
-                                </tr>      
-                </tbody>          
-            </table>
-        </div>
-    </div>
-
-
-<!-- 
-<table class="table table-striped table-bordered" id="editable-datatable">
-    <thead>
-        <tr>
-            <th rowspan="2">Grade.</th>
-            <th rowspan="2">Yield Point.</th>
-            <th colspan="2">Ultimate tensile strength</th>
-            <th rowspan="2">Per cent elong. 50.8&nbsp;mm or&nbsp;2&nbsp;in.</th>
-            <th rowspan="2">Per cent reduct. area.</th>
-     </tr>
-        <tr>
-            <th>kg/mm<sup>2</sup></th>
-            <th>lb/in<sup>2</sup></th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Hard</td>
-            <td>0.45 ultimate</td>
-            <td>56.2</td>
-            <td>80,000</td>
-            <td>15</td>
-            <td>20</td>
-     </tr>
-        <tr>
-             <td>Medium</td>
-            <td>0.45 ultimate</td>
-            <td>49.2</td>
-            <td>70,000</td>
-            <td>18</td>
-            <td>25</td>
-     </tr>
-     <tr>
-         <td>Soft</td>
-         <td>0.45 ultimate</td>
-         <td>42.2</td>
-         <td>60,000</td>
-         <td>22</td>
-         <td>30</td>
-     </tr>
-    </tbody>
-</table> -->
                 
 
 
@@ -1042,23 +939,6 @@
     <!-- Style switcher -->
     <!-- ============================================================== -->
     <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
-
- <!-- Editable -->
- <script src="../assets/plugins/jquery-datatables-editable/jquery.dataTables.js"></script>
- <script src="../assets/plugins/datatables/dataTables.bootstrap.js"></script>
- <script src="../assets/plugins/tiny-editable/mindmup-editabletable.js"></script>
- <script src="../assets/plugins/tiny-editable/numeric-input-example.js"></script>
-
-
-    <script>
-        // $('#mainTable').editableTableWidget().numericInputExample().find('td:first').focus();
-        $('#editable-datatable').editableTableWidget().numericInputExample().find('td:first').focus();
-        $(document).ready(function() {
-            // $('#editable-datatable').DataTable();
-        });
-        </script>
-
-
 </body>
 
 </html>
